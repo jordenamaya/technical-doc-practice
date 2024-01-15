@@ -1,0 +1,69 @@
+html {
+  display: grid;
+}
+#main-doc {
+  display: block;
+}
+header {
+  font-size: 22px;
+  color: darkorange;
+}
+.navigation {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  font-size: 20px;
+}
+.dragonball {
+  border-top: 4px solid;
+  border-right: 4px solid;
+  border-left: 4px solid;
+  border-color: lightgrey;
+}
+.nav-link {
+  display: block;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-color: lightgrey;
+  border-width: 4px;
+  text-decoration: none;
+  color: black;
+}
+.nav-link:last-of-type{
+border-bottom: 4px solid;
+border-color: lightgrey;
+}
+.main-text {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  margin-left: 210px;
+  padding: 1rem;
+  align-self: stretch;
+  text-align: left;
+}
+p {
+  margin-right: 50px;
+  font-size: 16px;
+}
+.creator-desc {
+  padding: 10px 30px 10px 30px;
+}
+.characters-desc {
+  padding: 10px 30px 10px 30px;
+}
+.sagas-desc {
+  padding: 10px 30px 10px 30px;
+}
+.trans-desc {
+  padding: 10px 30px 10px 30px;
+}
+#saga {
+  padding: 10px 0 0 0;
+}
+
+@media {
+
+}
